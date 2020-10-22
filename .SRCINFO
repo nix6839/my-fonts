@@ -1,0 +1,19 @@
+pkgbase = my-fonts
+	pkgdesc = Nix's using fonts
+	pkgver = 1
+	pkgrel = 1
+	url = https://gitlab.com/nix6839/my-fonts
+	arch = any
+	license = custom:OFL
+	provides = ttf-font
+	conflicts = ttf-d2coding
+	conflicts = ttf-nanum
+	source = fonts.tar.gz
+	source = d2coding-fonts-LICENSE
+	source = nanum-fonts-LICENSE
+	sha256sums = 069fedca91ef6cfb9239da5b63d4fa6d1cead52d3d3456e46e252ddc96c6d755
+	sha256sums = 9f409ab80b85e75a99037046ff4a8880fb7ea701a1aae58b5ac3059775f75a38
+	sha256sums = c6038f6740085ea48901ac510c13184a24ddc522859322600bb8ccb6a33d85ab
+
+pkgname = my-fonts
+
